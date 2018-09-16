@@ -1,4 +1,4 @@
-﻿# docker-protoc
+# docker-protoc
 Docker image with Microsoft DirectX shader compiler
 
 Hub: https://hub.docker.com/r/gwihlidal/dxc/
