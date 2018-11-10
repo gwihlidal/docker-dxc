@@ -9,8 +9,8 @@ RUN apt-get update && \
 	python
 
 ENV DXC_BRANCH=master
-ENV DXC_REPO=https://github.com/google/DirectXShaderCompiler.git
-ENV DXC_COMMIT=f45c5766277627d2b9c24b3e265701c961d75557
+ENV DXC_REPO=https://github.com/Microsoft/DirectXShaderCompiler.git
+ENV DXC_COMMIT=d75f96aabb27af63c5dc05cad4c47f7de85ca349
 
 WORKDIR /dxc
 
