@@ -8,9 +8,9 @@ RUN apt-get update && \
 	ninja-build \
 	python
 
-ENV DXC_BRANCH=master
-ENV DXC_REPO=https://github.com/Microsoft/DirectXShaderCompiler.git
-ENV DXC_COMMIT=d75f96aabb27af63c5dc05cad4c47f7de85ca349
+ENV DXC_BRANCH=NV_ray_tracing
+ENV DXC_REPO=https://github.com/sparmarNV/DirectXShaderCompiler.git
+ENV DXC_COMMIT=b5af042167dca350c4022a9dd70df949b1b36c02
 
 WORKDIR /dxc
 
